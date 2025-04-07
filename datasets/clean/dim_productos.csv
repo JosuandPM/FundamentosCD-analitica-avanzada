@@ -1,0 +1,43 @@
+PRODUCTID,PRODCATEGORYID,PRICE,SHORT_DESCR,SHORT_DESCR_CAT
+RO-1001,RO,525,Roady 1001,Road Bike
+RO-1002,RO,689,Roady 1002,Road Bike
+RO-1003,RO,721,Roady 1003,Road Bike
+BX-1011,BX,249,BMX Vintage 1011,BMX
+BX-1012,BX,399,BMX Jump 1012,BMX
+BX-1013,BX,449,BMX Jump Lux I,BMX
+BX-1014,BX,799,BMX Jump Lux II,BMX
+BX-1015,BX,299,BMX Optima,BMX
+BX-1016,BX,319,BMX Optima II,BMX
+CC-1021,CC,1144,Cyclone Basic,Cyclo-cross Bike
+CC-1022,CC,1200,Cyclone Speed,Cyclo-cross Bike
+CC-1023,CC,1361,Cyclone III,Cyclo-cross Bike
+MB-1031,MB,649,Mt Discovery B,Mountain Bike
+MB-1032,MB,1299,Mt Discovery Drive,Mountain Bike
+MB-1033,MB,3999,Mt Discovery Rush,Mountain Bike
+MB-1034,MB,2499,Mt Discovery Ulti,Mountain Bike
+RC-1051,RC,2499,Tornado I,Racing Bike
+RC-1052,RC,3999,Tornado II,Racing Bike
+RC-1053,RC,4599,Stream I,Racing Bike
+RC-1054,RC,5499,Stream II,Racing Bike
+RC-1055,RC,1999,Veloflash,Racing Bike
+RC-1056,RC,2499,Veloflash SE ,Racing Bike
+RC-1057,RC,4999,Veloflash Ultimate,Racing Bike
+DB-1081,DB,1499,Rooty Basic,Downhill Bike
+DB-1082,DB,1250,Capricorn,Downhill Bike
+DB-1083,DB,1199,Capricorn II,Downhill Bike
+EB-1131,EB,1500,Flash Drive,eBike
+EB-1132,EB,1900,Flash Drive II,eBike
+EB-1133,EB,2250,Lazy Cat,eBike
+EB-1134,EB,4800,Lazy Cat II,eBike
+EB-1135,EB,3000,Speedeon,eBike
+EB-1136,EB,5000,Speedeon Light,eBike
+EB-1137,EB,7900,Speedeon Cross,eBike
+CB-1161,CB,399,La Plage,Cruiser
+CB-1162,CB,400,La Plage Limited,Cruiser
+CB-1163,CB,288,La Plage Gold,Cruiser
+HB-1171,HB,699,Star Cruise,Hybrid Bike
+HB-1172,HB,799,Star Cruise II,Hybrid Bike
+HB-1173,HB,649,Universal One,Hybrid Bike
+HB-1174,HB,379,Universal Two,Hybrid Bike
+HB-1175,HB,899,Specifica,Hybrid Bike
+HB-1176,HB,1199,Specifica Gold,Hybrid Bike
