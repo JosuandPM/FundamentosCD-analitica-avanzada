@@ -4,7 +4,7 @@ Este repositorio contiene el desarrollo de un proyecto de ciencia de datos enfoc
 
 ## Objetivo del Proyecto
 
-Analizar y preparar los datos de ventas, productos, órdenes y categorías para construir una base sólida que permita la creación futura de modelos predictivos.
+Analizar, limpiar, transformar y organizar los datos de ventas, productos, órdenes y categorías para construir una base sólida que permita la creación de modelos predictivos que estimen la demanda (cantidad) y optimicen el manejo de inventario.
 
 ---
 
@@ -15,23 +15,35 @@ Contiene el Análisis Exploratorio de Datos:
 - Estadísticas descriptivas.
 - Visualizaciones iniciales.
 - Detección de valores faltantes y outliers.
+- Evaluación de qué archivos y columnas se utilizarán en la etapa de modelado.
 
 ### 2. **[Data_Wrangling.ipynb](./Data_Wrangling.ipynb)**
 Contiene el proceso de limpieza y transformación:
 - Eliminación de columnas irrelevantes.
-- Imputación de valores nulos.
-- Cálculo de nuevas variables.
-- Justificación de cada decisión tomada.
+- Tratamiento de valores nulos y duplicados.
+- Normalización de nombres de columnas.
+- Creación de las tablas finales `fct_ventas` y `dim_productos`.
+- Exportación de archivos .csv limpios y consolidados.
+
 ---
 
-## Archivos de Datos Utilizados
+## Archivos de Datos Utilizados (Carpeta: `../datasets/raw/`)
 
 - `SalesOrderItems.csv`
-- `SalesOrders.csv`
 - `Products.csv`
+- `ProductTexts.csv`
 - `ProductCategories.csv`
 
-Estos archivos se encuentran en la carpeta `../datasets/raw/` dentro de los notebooks.
+---
+
+## Archivos Exportados (Carpeta: `../datasets/clean/`)
+
+- `clean_orden_ventas_item.csv`
+- `clean_productos.csv`
+- `clean_texto_productos.csv`
+- `clean_texto_categoria_productos.csv`
+- `fct_ventas.csv`
+- `dim_productos.csv`
 
 ---
 
@@ -47,4 +59,3 @@ Estos archivos se encuentran en la carpeta `../datasets/raw/` dentro de los note
 ## Autor
 
 **Josue Paredes**
-
