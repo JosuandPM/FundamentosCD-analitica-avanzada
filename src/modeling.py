@@ -1,4 +1,3 @@
-
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -49,3 +48,8 @@ def evaluar_modelos(modelos, X_test, y_test):
             'R2': r2
         })
     return pd.DataFrame(resultados).sort_values(by='RMSE')
+
+def entrenar_modelos_regresion(X_train, X_test, y_train, y_test, nombre_set=""):
+    modelos = entrenar_modelos(X_train, y_train)
+    resultados = evaluar_modelos(modelos, X_test, y_test)
+    return resultados.set_index("Modelo").to_dict(orient="index")
