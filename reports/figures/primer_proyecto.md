@@ -1,5 +1,5 @@
 
-# Proyecto 2 - Parte 1: EDA y Data Wrangling
+# Proyecto 1 - Parte 1: EDA y Data Wrangling
 
 ## Objetivo
 
